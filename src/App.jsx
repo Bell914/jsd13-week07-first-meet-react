@@ -1,20 +1,10 @@
 export default function App() {
   return (
-    <div className="min-h-screen flex justify-center bg-blue-950">
-      <div className="p-6 gap-y-6 flex flex-col justify-start w-[80%] lg:w-[70%]">
-        <h1 className="w-full p-6 bg-amber-100 font-extrabold">
-          React App Starter
-        </h1>
-        <section className="w-full p-5 bg-amber-100 flex">
-          <ul className="list-inside list-disc flex-1">
-            <span className="font-semibold">Tech Stack:</span>
-            <li>Vite</li>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>Tailwind</li>
-          </ul>
-        </section>
-      </div>
+    <div className="min-h-screen bg-slate-950 text-white flex flex-col items-center justify-center p-6">
+      <h1 className="text-2xl font-bold">Ready to build Step by Step</h1>
+      <p className="text-slate-400 text-sm mt-2">
+        เริ่มสร้าง Component ทีละขั้นตอนจากนี้ได้เลยครับ
+      </p>
     </div>
   );
 }
