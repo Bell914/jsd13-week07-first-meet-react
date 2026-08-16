@@ -10,7 +10,7 @@ export default function NavBar({ activeTab, onSelectTab }) {
     <nav className="w-full max-w-5xl mx-auto px-4 py-3 bg-slate-900/90 backdrop-blur-md border border-slate-800 rounded-2xl flex flex-wrap items-center justify-between gap-4 shadow-xl sticky top-4 z-40">
       {/* Brand logo imitating the top bar in the mockup */}
       <div className="flex items-center gap-3">
-        <div className="w-8 h-8 rounded-lg bg-[#6345ec] flex items-center justify-center font-black text-white text-sm shadow-md">
+        <div className="w-8 h-8 rounded-lg bg-[#3514c8] flex items-center justify-center font-black text-white text-sm shadow-md">
           R
         </div>
         <div className="flex flex-col">

@@ -15,7 +15,7 @@ export default function HeroSection() {
         {/* Ambient Glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#6345ec]/15 rounded-full blur-3xl pointer-events-none" />
 
-        {/* --- Top Connecting Dashed Flow Line --- */}
+        {/* Top Connecting Dashed Flow Line */}
         <div className="hidden md:flex items-center justify-between px-16 lg:px-24 mb-6 relative z-10">
           {/* Node 1 (Mobile) */}
           <div className="flex flex-col items-center">
@@ -50,10 +50,10 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* --- The Three Device Mockups --- */}
+        {/* The Three Device Mockups */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end relative z-10">
           
-          {/* ================= 1. MOBILE DEVICE (Left - 3 Cols) ================= */}
+          {/*  1. MOBILE DEVICE Left - 3 Cols */}
           <div className="md:col-span-3 flex flex-col items-center">
             <div className="w-44 sm:w-48 bg-slate-900 border-4 border-[#6345ec] rounded-3xl p-2.5 shadow-2xl relative">
               {/* Notch / Speaker */}
@@ -101,7 +101,7 @@ export default function HeroSection() {
             </span>
           </div>
 
-          {/* ================= 2. TABLET DEVICE (Middle - 4 Cols) ================= */}
+          {/*  TABLET DEVICE (Middle - 4 Cols) */}
           <div className="md:col-span-4 flex flex-col items-center">
             <div className="w-60 sm:w-68 bg-slate-900 border-4 border-[#6345ec] rounded-3xl p-3 shadow-2xl relative">
               {/* Front Camera dot */}
@@ -138,7 +138,7 @@ export default function HeroSection() {
             </span>
           </div>
 
-          {/* ================= 3. LAPTOP / DESKTOP DEVICE (Right - 5 Cols) ================= */}
+          {/* LAPTOP / DESKTOP DEVICE (Right - 5 Cols) */}
           <div className="md:col-span-5 flex flex-col items-center">
             <div className="w-full max-w-[360px] sm:max-w-[400px]">
               {/* Laptop Screen Lid */}
@@ -185,7 +185,7 @@ export default function HeroSection() {
 
         </div>
 
-        {/* --- Bottom Connecting Dashed Return Flow Line --- */}
+        {/* Bottom Connecting Dashed Return Flow Line */}
         <div className="hidden md:flex items-center justify-between px-16 lg:px-24 mt-6 relative z-10">
           {/* Node 1 (Mobile) */}
           <div className="flex flex-col items-center">
